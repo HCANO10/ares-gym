@@ -1,0 +1,139 @@
+import { Exercise, WorkoutConfig } from '../types/gym';
+import exercisesData from '../data/exercises.json';
+
+// Ensure the data is treated as typed
+const exercises: Exercise[] = exercisesData as unknown as Exercise[];
+
+export interface GeneratedExercise extends Exercise {
+    series: number;
+}
+
+export interface WorkoutPlan {
+    exercises: GeneratedExercise[];
+    series_totales: number;
+    tiempo_estimado_final: number; // in minutes
+    warnings: string[];
+}
+
+const WARMUP_DURATION_SECONDS = 5 * 60; // 5 minutes allocated for Warmup logic
+const SET_DURATION_SECONDS = 120; // Standard block for calculation
+
+export function generateWorkout(config: WorkoutConfig): WorkoutPlan {
+    const warnings: string[] = [];
+    const planExercises: GeneratedExercise[] = [];
+
+    // 1. Initial validations
+    if (config.availableTime < 10 && config.selectedZones.length > 2) {
+        warnings.push("Tiempo insuficiente para realizar un entrenamiento efectivo con tantas zonas.");
+    }
+
+    if (config.selectedZones.length === 0) {
+        return {
+            exercises: [],
+            series_totales: 0,
+            tiempo_estimado_final: 0,
+            warnings: ["No se han seleccionado zonas."]
+        };
+    }
+
+    let remainingTimeSeconds = config.availableTime * 60;
+
+    // 2. Warmup Logic
+    if (config.includeWarmup) {
+        const warmupExercises = exercises.filter(e => e.subZone === 'Warmup');
+        if (warmupExercises.length > 0) {
+            // Pick random warmup
+            const randomWarmup = warmupExercises[Math.floor(Math.random() * warmupExercises.length)];
+
+            // Calculate effective time used/allocated
+            // Logic: Allocating a fixed chunk for warmup to leave room for main workout
+            // However, we record the actual exercise with 1 set (as is typical for a specific warmup movement in this context)
+            // or maybe more? Let's assume 1 set for the "Warmup Exercise" item.
+
+            planExercises.push({
+                ...randomWarmup,
+                series: 1
+            });
+
+            remainingTimeSeconds -= WARMUP_DURATION_SECONDS;
+        } else {
+            warnings.push("No se encontraron ejercicios de Warmup.");
+        }
+    }
+
+    // Ensure positive remaining time
+    if (remainingTimeSeconds <= 0) {
+        warnings.push("El calentamiento consume casi todo el tiempo disponible.");
+        remainingTimeSeconds = 60; // Minimal buffer
+    }
+
+    // 3. Zone Distribution
+    const numberOfZones = config.selectedZones.length;
+    const timePerZoneSeconds = remainingTimeSeconds / numberOfZones;
+
+    // 4. Exercise Selection per Zone
+    for (const zone of config.selectedZones) {
+        // Select random exercises based on volume
+        const zoneExercises = exercises.filter(e => e.subZone === zone);
+
+        if (zoneExercises.length === 0) {
+            warnings.push(`No se encontraron ejercicios para la zona: ${zone}`);
+            continue;
+        }
+
+        // Calculate total series for this zone
+        let calculatedSeries = Math.floor(timePerZoneSeconds / SET_DURATION_SECONDS);
+        if (calculatedSeries < 1) calculatedSeries = 1;
+
+        // Determine number of exercises based on series count
+        let numExercisesToPick = 1;
+        if (calculatedSeries >= 9) numExercisesToPick = 3;
+        else if (calculatedSeries >= 5) numExercisesToPick = 2;
+
+        // Adjust if not enough exercises available
+        if (zoneExercises.length < numExercisesToPick) {
+            numExercisesToPick = zoneExercises.length;
+        }
+
+        // Shuffle and pick distinct exercises
+        const shuffled = [...zoneExercises].sort(() => 0.5 - Math.random());
+        const selectedExercises = shuffled.slice(0, numExercisesToPick);
+
+        // Distribute series
+        const baseSeriesPerExercise = Math.floor(calculatedSeries / numExercisesToPick);
+        let remainderSeries = calculatedSeries % numExercisesToPick;
+
+        for (const exercise of selectedExercises) {
+            let seriesForThis = baseSeriesPerExercise;
+            if (remainderSeries > 0) {
+                seriesForThis++;
+                remainderSeries--;
+            }
+
+            if (seriesForThis > 0) {
+                planExercises.push({
+                    ...exercise,
+                    series: seriesForThis
+                });
+            }
+        }
+    }
+
+    // 5. Final Calculations
+    const totalSeries = planExercises.reduce((acc, curr) => acc + curr.series, 0);
+
+    // Estimate total time based on 120s per set for main exercises, and explicit time for warmup items?
+    // The rule "Series = TiempoPorZona / 120" implies 120s per set pacing.
+    // We'll trust the plan's series count * 120 for a rough estimate, or use the `estimated_time_per_set` from the exercise.
+    // Using the exercise's specific time is more accurate to the data.
+    const totalTimeSeconds = planExercises.reduce((acc, curr) => {
+        return acc + (curr.series * curr.estimated_time_per_set);
+    }, 0);
+
+    return {
+        exercises: planExercises,
+        series_totales: totalSeries,
+        tiempo_estimado_final: Math.round(totalTimeSeconds / 60),
+        warnings
+    };
+}

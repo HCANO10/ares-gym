@@ -1,0 +1,330 @@
+[
+  {
+    "id": "w1",
+    "name": "Rotación de hombros",
+    "subZone": "Warmup",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 60,
+    "priority": 1
+  },
+  {
+    "id": "w2",
+    "name": "Jumping Jacks",
+    "subZone": "Warmup",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 60,
+    "priority": 1
+  },
+  {
+    "id": "w3",
+    "name": "Sentadilla profunda dinámica",
+    "subZone": "Warmup",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 60,
+    "priority": 1
+  },
+  {
+    "id": "w4",
+    "name": "Gato-Vaca",
+    "subZone": "Warmup",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 60,
+    "priority": 1
+  },
+  {
+    "id": "w5",
+    "name": "Caminata de manos",
+    "subZone": "Warmup",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 60,
+    "priority": 1
+  },
+  {
+    "id": "p1",
+    "name": "Press de Banca con Barra",
+    "subZone": "Pecho",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "p2",
+    "name": "Press Inclinado con Mancuernas",
+    "subZone": "Pecho",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "p3",
+    "name": "Aperturas en Máquina",
+    "subZone": "Pecho",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "e1",
+    "name": "Dominadas",
+    "subZone": "Espalda",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "e2",
+    "name": "Remo con Barra",
+    "subZone": "Espalda",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "e3",
+    "name": "Jalón al Pecho",
+    "subZone": "Espalda",
+    "equipment": "cable",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "h1",
+    "name": "Press Militar con Barra",
+    "subZone": "Hombro",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "h2",
+    "name": "Elevaciones Laterales",
+    "subZone": "Hombro",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "h3",
+    "name": "Pájaros con Mancuernas",
+    "subZone": "Hombro",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "bi1",
+    "name": "Curl con Barra",
+    "subZone": "Bíceps",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "bi2",
+    "name": "Curl Martillo",
+    "subZone": "Bíceps",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "bi3",
+    "name": "Curl Predicador",
+    "subZone": "Bíceps",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "tri1",
+    "name": "Fondos en Paralelas",
+    "subZone": "Tríceps",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "tri2",
+    "name": "Press Francés",
+    "subZone": "Tríceps",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "tri3",
+    "name": "Extensiones de Tríceps en Polea",
+    "subZone": "Tríceps",
+    "equipment": "cable",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "cua1",
+    "name": "Sentadilla con Barra",
+    "subZone": "Cuádriceps",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "cua2",
+    "name": "Prensa de Piernas",
+    "subZone": "Cuádriceps",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "cua3",
+    "name": "Extensiones de Cuádriceps",
+    "subZone": "Cuádriceps",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "fem1",
+    "name": "Peso Muerto Rumano",
+    "subZone": "Femoral",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "fem2",
+    "name": "Curl Femoral Tumbado",
+    "subZone": "Femoral",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "fem3",
+    "name": "Buenos Días",
+    "subZone": "Femoral",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "glu1",
+    "name": "Hip Thrust",
+    "subZone": "Glúteos",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "glu2",
+    "name": "Patada de Glúteo en Polea",
+    "subZone": "Glúteos",
+    "equipment": "cable",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "glu3",
+    "name": "Sentadilla Búlgara",
+    "subZone": "Glúteos",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "gem1",
+    "name": "Elevación de Talones de Pie",
+    "subZone": "Gemelo",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "gem2",
+    "name": "Elevación de Talones Sentado",
+    "subZone": "Gemelo",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "gem3",
+    "name": "Elevación de Talones en Prensa",
+    "subZone": "Gemelo",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "abs1",
+    "name": "Crunches",
+    "subZone": "Abs",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "abs2",
+    "name": "Elevación de Piernas",
+    "subZone": "Abs",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "abs3",
+    "name": "Plancha Abdominal",
+    "subZone": "Abs",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "lum1",
+    "name": "Hiperextensiones",
+    "subZone": "Lumbar",
+    "equipment": "machine",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "lum2",
+    "name": "Superman",
+    "subZone": "Lumbar",
+    "equipment": "bodyweight",
+    "estimated_time_per_set": 120,
+    "priority": 2
+  },
+  {
+    "id": "lum3",
+    "name": "Peso Muerto Clásico",
+    "subZone": "Lumbar",
+    "equipment": "barbell",
+    "estimated_time_per_set": 120,
+    "priority": 1
+  },
+  {
+    "id": "ant1",
+    "name": "Paseo de Granjero",
+    "subZone": "Antebrazos",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 60,
+    "priority": 1
+  },
+  {
+    "id": "ant2",
+    "name": "Curl de Muñeca",
+    "subZone": "Antebrazos",
+    "equipment": "barbell",
+    "estimated_time_per_set": 60,
+    "priority": 2
+  },
+  {
+    "id": "ant3",
+    "name": "Curl de Muñeca Invertido",
+    "subZone": "Antebrazos",
+    "equipment": "dumbbells",
+    "estimated_time_per_set": 60,
+    "priority": 2
+  }
+]
