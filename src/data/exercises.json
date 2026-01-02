@@ -5,7 +5,9 @@
     "subZone": "Warmup",
     "equipment": "bodyweight",
     "estimated_time_per_set": 60,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/l0HlOaQcLJ2h2/giphy.gif",
+    "reps_range": "15-20"
   },
   {
     "id": "w2",
@@ -13,7 +15,9 @@
     "subZone": "Warmup",
     "equipment": "bodyweight",
     "estimated_time_per_set": 60,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/l3vRlInF7QViJNOow/giphy.gif",
+    "reps_range": "15-20"
   },
   {
     "id": "w3",
@@ -21,7 +25,9 @@
     "subZone": "Warmup",
     "equipment": "bodyweight",
     "estimated_time_per_set": 60,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/1iTH1WIUjM0VATGU/giphy.gif",
+    "reps_range": "15-20"
   },
   {
     "id": "w4",
@@ -29,7 +35,9 @@
     "subZone": "Warmup",
     "equipment": "bodyweight",
     "estimated_time_per_set": 60,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/WpToCsBQuIopU4L4Ij/giphy.gif",
+    "reps_range": "15-20"
   },
   {
     "id": "w5",
@@ -37,7 +45,9 @@
     "subZone": "Warmup",
     "equipment": "bodyweight",
     "estimated_time_per_set": 60,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7TKSjRrfPHkIG4le/giphy.gif",
+    "reps_range": "15-20"
   },
   {
     "id": "p1",
@@ -45,7 +55,9 @@
     "subZone": "Pecho",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/tK7lZ9690uB0c/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "p2",
@@ -53,7 +65,9 @@
     "subZone": "Pecho",
     "equipment": "dumbbells",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/zBwmv8WXGDBXW/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "p3",
@@ -61,7 +75,9 @@
     "subZone": "Pecho",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/wM5F88vJ7L4ys/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "e1",
@@ -69,7 +85,9 @@
     "subZone": "Espalda",
     "equipment": "bodyweight",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/eMwgXEo7M60PC/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "e2",
@@ -77,7 +95,9 @@
     "subZone": "Espalda",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "e3",
@@ -85,7 +105,9 @@
     "subZone": "Espalda",
     "equipment": "cable",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/brIg1uE5p2gJa/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "h1",
@@ -93,7 +115,9 @@
     "subZone": "Hombro",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "h2",
@@ -101,7 +125,9 @@
     "subZone": "Hombro",
     "equipment": "dumbbells",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKR1b2XN5uZbVTi/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "h3",
@@ -109,7 +135,9 @@
     "subZone": "Hombro",
     "equipment": "dumbbells",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "bi1",
@@ -117,7 +145,9 @@
     "subZone": "Bíceps",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKy7hIfM3UndDPq/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "bi2",
@@ -125,7 +155,9 @@
     "subZone": "Bíceps",
     "equipment": "dumbbells",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "bi3",
@@ -133,7 +165,9 @@
     "subZone": "Bíceps",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l0HlOaQcLJ2h2/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "tri1",
@@ -141,7 +175,9 @@
     "subZone": "Tríceps",
     "equipment": "bodyweight",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "tri2",
@@ -149,7 +185,9 @@
     "subZone": "Tríceps",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "tri3",
@@ -157,7 +195,9 @@
     "subZone": "Tríceps",
     "equipment": "cable",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKR1b2XN5uZbVTi/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "cua1",
@@ -165,7 +205,9 @@
     "subZone": "Cuádriceps",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/1iTH1WIUjM0VATGU/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "cua2",
@@ -173,7 +215,9 @@
     "subZone": "Cuádriceps",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "cua3",
@@ -181,7 +225,9 @@
     "subZone": "Cuádriceps",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "fem1",
@@ -189,7 +235,9 @@
     "subZone": "Femoral",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "fem2",
@@ -197,7 +245,9 @@
     "subZone": "Femoral",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKR1b2XN5uZbVTi/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "fem3",
@@ -205,7 +255,9 @@
     "subZone": "Femoral",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/l0HlOaQcLJ2h2/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "glu1",
@@ -213,7 +265,9 @@
     "subZone": "Glúteos",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/1iTH1WIUjM0VATGU/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "glu2",
@@ -221,7 +275,9 @@
     "subZone": "Glúteos",
     "equipment": "cable",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "glu3",
@@ -229,7 +285,9 @@
     "subZone": "Glúteos",
     "equipment": "dumbbells",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "gem1",
@@ -237,7 +295,9 @@
     "subZone": "Gemelo",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKR1b2XN5uZbVTi/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "gem2",
@@ -245,7 +305,9 @@
     "subZone": "Gemelo",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "gem3",
@@ -253,7 +315,9 @@
     "subZone": "Gemelo",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "abs1",
@@ -261,7 +325,9 @@
     "subZone": "Abs",
     "equipment": "bodyweight",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "abs2",
@@ -269,7 +335,9 @@
     "subZone": "Abs",
     "equipment": "bodyweight",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "abs3",
@@ -277,7 +345,9 @@
     "subZone": "Abs",
     "equipment": "bodyweight",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7TKR1b2XN5uZbVTi/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "lum1",
@@ -285,7 +355,9 @@
     "subZone": "Lumbar",
     "equipment": "machine",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "lum2",
@@ -293,7 +365,9 @@
     "subZone": "Lumbar",
     "equipment": "bodyweight",
     "estimated_time_per_set": 120,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "lum3",
@@ -301,7 +375,9 @@
     "subZone": "Lumbar",
     "equipment": "barbell",
     "estimated_time_per_set": 120,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/1iTH1WIUjM0VATGU/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "ant1",
@@ -309,7 +385,9 @@
     "subZone": "Antebrazos",
     "equipment": "dumbbells",
     "estimated_time_per_set": 60,
-    "priority": 1
+    "priority": 1,
+    "image_url": "https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif",
+    "reps_range": "6-10"
   },
   {
     "id": "ant2",
@@ -317,7 +395,9 @@
     "subZone": "Antebrazos",
     "equipment": "barbell",
     "estimated_time_per_set": 60,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/l41Yy4J96X8ehz8xG/giphy.gif",
+    "reps_range": "12-15"
   },
   {
     "id": "ant3",
@@ -325,6 +405,8 @@
     "subZone": "Antebrazos",
     "equipment": "dumbbells",
     "estimated_time_per_set": 60,
-    "priority": 2
+    "priority": 2,
+    "image_url": "https://media.giphy.com/media/3o7TKR1b2XN5uZbVTi/giphy.gif",
+    "reps_range": "12-15"
   }
 ]
